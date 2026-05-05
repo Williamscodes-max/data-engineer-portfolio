@@ -57,20 +57,20 @@ const skillsSection = {
 https://fontawesome.com/icons?d=gallery */
 
   softwareSkills: [
-  {skillName: "Python", fontAwesomeClassname: "fab fa-python"},
-  {skillName: "SQL", fontAwesomeClassname: "fas fa-database"},
-  {
-    skillName: "Apache Airflow",
-    fontAwesomeClassname: "fas fa-project-diagram"
-  },
-  {
-    skillName: "Apache Spark",
-    fontAwesomeClassname: "fas fa-bolt"
-  },
-  {skillName: "Docker", fontAwesomeClassname: "fab fa-docker"},
-  {skillName: "PostgreSQL", fontAwesomeClassname: "fas fa-database"},
-  {skillName: "AWS", fontAwesomeClassname: "fab fa-aws"}
-],
+    {skillName: "Python", fontAwesomeClassname: "fab fa-python"},
+    {skillName: "SQL", fontAwesomeClassname: "fas fa-database"},
+    {
+      skillName: "Apache Airflow",
+      fontAwesomeClassname: "fas fa-project-diagram"
+    },
+    {
+      skillName: "Apache Spark",
+      fontAwesomeClassname: "fas fa-bolt"
+    },
+    {skillName: "Docker", fontAwesomeClassname: "fab fa-docker"},
+    {skillName: "PostgreSQL", fontAwesomeClassname: "fas fa-database"},
+    {skillName: "AWS", fontAwesomeClassname: "fab fa-aws"}
+  ],
   display: true // Set false to hide this section, defaults to true
 };
 
@@ -208,17 +208,16 @@ const bigProjects = {
 const achievementSection = {
   title: emoji("Achievements And Certifications 🏆 "),
   subtitle:
-  "Certifications, achievements, and professional milestones that reflect my growth in data engineering and analytics.",
+    "Certifications, achievements, and professional milestones that reflect my growth in data engineering and analytics.",
   achievementsCards: [
     {
       title: "ALX Data Analyst Program",
-      subtitle:
-        "Data Analyst Certification",
+      subtitle: "Data Analyst Certification",
       image: require("./assets/images/dataanalytic.jpeg"),
       imageAlt: "ALX Data Analyst Program Logo",
       footerLink: [
         {
-          name: "Certification",
+          name: "Certification"
           // url: ""
         },
         {
