@@ -33,10 +33,10 @@ const greeting = {
 // Social Media Links
 
 const socialMediaLinks = {
-  github: "https://github.com/zainabolubuade",
-  linkedin: "https://www.linkedin.com/in/zainab-olubuade",
-  gmail: "zainab.olubuade@gmail.com",
-  facebook: "https://www.facebook.com/zainab.olubuade",
+  github: "https://github.com/Temitope-Zee",
+  linkedin: "https://www.linkedin.com/in/olubuade-zainab-02a602193/",
+  gmail: "olubuadezainab05@gmail.com",
+  // facebook: "https://www.facebook.com/zainab.olubuade",
   // Instagram, Twitter and Kaggle are also supported in the links!
   // To customize icons and social links, tweak src/components/SocialMedia
   display: true // Set true to display this section, defaults to false
@@ -57,16 +57,20 @@ const skillsSection = {
 https://fontawesome.com/icons?d=gallery */
 
   softwareSkills: [
-    {skillName: "Python", fontAwesomeClassname: "fab fa-python"},
-    {skillName: "SQL", fontAwesomeClassname: "fas fa-database"},
-    {
-      skillName: "Apache Airflow",
-      fontAwesomeClassname: "fas fa-project-diagram"
-    },
-    {skillName: "Docker", fontAwesomeClassname: "fab fa-docker"},
-    {skillName: "PostgreSQL", fontAwesomeClassname: "fas fa-database"},
-    {skillName: "AWS", fontAwesomeClassname: "fab fa-aws"}
-  ],
+  {skillName: "Python", fontAwesomeClassname: "fab fa-python"},
+  {skillName: "SQL", fontAwesomeClassname: "fas fa-database"},
+  {
+    skillName: "Apache Airflow",
+    fontAwesomeClassname: "fas fa-project-diagram"
+  },
+  {
+    skillName: "Apache Spark",
+    fontAwesomeClassname: "fas fa-bolt"
+  },
+  {skillName: "Docker", fontAwesomeClassname: "fab fa-docker"},
+  {skillName: "PostgreSQL", fontAwesomeClassname: "fas fa-database"},
+  {skillName: "AWS", fontAwesomeClassname: "fab fa-aws"}
+],
   display: true // Set false to hide this section, defaults to true
 };
 
@@ -204,59 +208,58 @@ const bigProjects = {
 const achievementSection = {
   title: emoji("Achievements And Certifications 🏆 "),
   subtitle:
-    "Achievements, Certifications, Award Letters and Some Cool Stuff that I have done !",
-
+  "Certifications, achievements, and professional milestones that reflect my growth in data engineering and analytics.",
   achievementsCards: [
     {
-      title: "Google Code-In Finalist",
+      title: "ALX Data Analyst Program",
       subtitle:
-        "First Pakistani to be selected as Google Code-in Finalist from 4000 students from 77 different countries.",
-      image: require("./assets/images/codeInLogo.webp"),
-      imageAlt: "Google Code-In Logo",
+        "Data Analyst Certification",
+      image: require("./assets/images/dataanalytic.jpeg"),
+      imageAlt: "ALX Data Analyst Program Logo",
       footerLink: [
         {
           name: "Certification",
-          url: "https://drive.google.com/file/d/0B7kazrtMwm5dYkVvNjdNWjNybWJrbndFSHpNY2NFV1p4YmU0/view?usp=sharing"
+          // url: ""
         },
         {
-          name: "Award Letter",
+          name: "Link",
           url: "https://drive.google.com/file/d/0B7kazrtMwm5dekxBTW5hQkg2WXUyR3QzQmR0VERiLXlGRVdF/view?usp=sharing"
         },
         {
-          name: "Google Code-in Blog",
+          name: "Github",
           url: "https://opensource.googleblog.com/2019/01/google-code-in-2018-winners.html"
         }
       ]
     },
-    {
-      title: "Google Assistant Action",
-      subtitle:
-        "Developed a Google Assistant Action JavaScript Guru that is available on 2 Billion devices world wide.",
-      image: require("./assets/images/googleAssistantLogo.webp"),
-      imageAlt: "Google Assistant Action Logo",
-      footerLink: [
-        {
-          name: "View Google Assistant Action",
-          url: "https://assistant.google.com/services/a/uid/000000100ee688ee?hl=en"
-        }
-      ]
-    },
+    // {
+    //   title: " ALX Professional Development Skills",
+    //   subtitle:
+    //     "Professional Skills Development",
+    //   image: require("./assets/images/professional division.jpeg"),
+    //   imageAlt: "ALX Professional Development Skills Logo",
+    //   footerLink: [
+    //     {
+    //       name: "Certification",
+    //       url: "https://assistant.google.com/services/a/uid/000000100ee688ee?hl=en"
+    //     }
+    //   ]
+    // },
 
     {
-      title: "PWA Web App Developer",
-      subtitle: "Completed Certifcation from SMIT for PWA Web App Development",
-      image: require("./assets/images/pwaLogo.webp"),
-      imageAlt: "PWA Logo",
+      title: "ALX Python Training",
+      subtitle: "Python Programming Certification",
+      image: require("./assets/images/pythontraining.jpeg"),
+      imageAlt: "Python Training Logo",
       footerLink: [
         {name: "Certification", url: ""},
         {
-          name: "Final Project",
+          name: "Project Link",
           url: "https://pakistan-olx-1.firebaseapp.com/"
         }
       ]
     }
   ],
-  display: false // Set false to hide this section, defaults to true
+  display: true // Set false to hide this section, defaults to true
 };
 
 // Blogs Section
@@ -328,8 +331,8 @@ const contactInfo = {
   title: emoji("Contact Me ☎️"),
   subtitle:
     "Discuss a project or just want to say hi? My Inbox is open for all.",
-  number: "+23498764598",
-  email_address: "zainabolubuade@gmail.com"
+  number: "+2348077070982",
+  email_address: "olubuadezainab05@gmail.com"
 };
 
 // Twitter Section
