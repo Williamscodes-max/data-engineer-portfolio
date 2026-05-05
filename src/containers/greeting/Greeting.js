@@ -55,7 +55,7 @@ export default function Greeting() {
           <div className="greeting-image-div">
             {illustration.animated ? (
               <div className="custom-lottie-size">
-              <DisplayLottie animationData={landingPerson} />
+                <DisplayLottie animationData={landingPerson} />
               </div>
             ) : (
               <img
@@ -69,4 +69,3 @@ export default function Greeting() {
     </Fade>
   );
 }
-

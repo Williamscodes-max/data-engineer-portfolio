@@ -56,13 +56,16 @@ const skillsSection = {
   /* Make Sure to include correct Font Awesome Classname to view your icon
 https://fontawesome.com/icons?d=gallery */
 
-   softwareSkills: [
-    { skillName: "Python", fontAwesomeClassname: "fab fa-python" },
-    { skillName: "SQL", fontAwesomeClassname: "fas fa-database" },
-    { skillName: "Apache Airflow", fontAwesomeClassname: "fas fa-project-diagram" },
-    { skillName: "Docker", fontAwesomeClassname: "fab fa-docker" },
-    { skillName: "PostgreSQL", fontAwesomeClassname: "fas fa-database" },
-    { skillName: "AWS", fontAwesomeClassname: "fab fa-aws" }
+  softwareSkills: [
+    {skillName: "Python", fontAwesomeClassname: "fab fa-python"},
+    {skillName: "SQL", fontAwesomeClassname: "fas fa-database"},
+    {
+      skillName: "Apache Airflow",
+      fontAwesomeClassname: "fas fa-project-diagram"
+    },
+    {skillName: "Docker", fontAwesomeClassname: "fab fa-docker"},
+    {skillName: "PostgreSQL", fontAwesomeClassname: "fas fa-database"},
+    {skillName: "AWS", fontAwesomeClassname: "fab fa-aws"}
   ],
   display: true // Set false to hide this section, defaults to true
 };
@@ -77,7 +80,7 @@ const educationInfo = {
       logo: require("./assets/images/alx2.png"),
       subHeader: "Data Engineering Program",
       duration: "September 2025 - September 2026",
-      desc: "",
+      desc: ""
       // descBullets: [
       //   "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
       //   "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
@@ -117,7 +120,7 @@ const workExperiences = {
       company: "",
       companylogo: require("./assets/images/alx2.png"),
       date: "June 2024 – Present",
-      desc: "Designed and maintained scalable data pipelines for collecting, transforming, and processing structured data. Worked with SQL, Python, and cloud-based tools to support analytics, reporting, and business intelligence solutions. Collaborated with cross-functional teams to improve data quality, automate workflows, and optimize database performance.",
+      desc: "Designed and maintained scalable data pipelines for collecting, transforming, and processing structured data. Worked with SQL, Python, and cloud-based tools to support analytics, reporting, and business intelligence solutions. Collaborated with cross-functional teams to improve data quality, automate workflows, and optimize database performance."
       // descBullets: [
       //   "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
       //   "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
@@ -253,7 +256,7 @@ const achievementSection = {
       ]
     }
   ],
-  display: false// Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Blogs Section

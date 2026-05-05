@@ -27,9 +27,9 @@ function Header() {
   return (
     <Headroom>
       <header className={isDark ? "dark-menu header" : "header"}>
-       <a href="/" className="logo">
-  <span className="logo-name">⛁ {greeting.username}</span>
-</a>
+        <a href="/" className="logo">
+          <span className="logo-name">⛁ {greeting.username}</span>
+        </a>
         <input className="menu-btn" type="checkbox" id="menu-btn" />
         <label
           className="menu-icon"
@@ -50,9 +50,7 @@ function Header() {
             </li>
           )}
           {viewOpenSource && (
-            <li>
-              {/* <a href="#opensource">Open Source</a> */}
-            </li>
+            <li>{/* <a href="#opensource">Open Source</a> */}</li>
           )}
           {viewAchievement && (
             <li>
