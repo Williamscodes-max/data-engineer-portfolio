@@ -20,7 +20,7 @@ import {splashScreen} from "../portfolio";
 import {StyleProvider} from "../contexts/StyleContext";
 import {useLocalStorage} from "../hooks/useLocalStorage";
 import "./Main.scss";
-
+import DataArchitecture from "../components/DataArchitecture/DataArchitecture";
 const Main = () => {
   const darkPref = window.matchMedia("(prefers-color-scheme: dark)");
   const [isDark, setIsDark] = useLocalStorage("isDark", darkPref.matches);
@@ -53,6 +53,7 @@ const Main = () => {
             <Header />
             <Greeting />
             <Skills />
+            <DataArchitecture />
             <StackProgress />
             <Education />
             <WorkExperience />

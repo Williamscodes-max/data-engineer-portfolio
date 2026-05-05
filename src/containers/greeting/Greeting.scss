@@ -8,7 +8,7 @@
 }
 .greet-main {
   width: 90%;
-  padding: 20px 10px;
+  padding: 40px 80px;
   margin: 0px auto;
   margin-top: 2rem;
 }
@@ -36,8 +36,22 @@
 
 .button-greeting-div {
   display: flex;
+  gap: 16px;
   margin-top: 40px;
+  flex-wrap: wrap;
 }
+
+.button-greeting-div button {
+  border-radius: 12px;
+  padding: 14px 28px;
+  font-weight: 600;
+  transition: all 0.3s ease;
+}
+
+.button-greeting-div button:hover {
+  transform: translateY(-3px);
+}
+
 .download-link-button {
   text-decoration: none;
 }
@@ -45,17 +59,38 @@
 .greeting-text {
   font-size: 70px;
   line-height: 1.1;
-  color: $textColor !important;
+  font-weight: 700;
+
+  background: linear-gradient(90deg, #2563eb, #7c3aed);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 .greeting-text-p {
-  font-size: 30px;
-  line-height: 40px;
+  font-size: 20px;
+  line-height: 1.8;
+  color: #64748b;
+  max-width: 700px;
 }
 
 .greeting-image-div > img {
   max-width: 100%;
   height: auto;
+  animation: float 4s ease-in-out infinite;
+}
+
+@keyframes float {
+  0% {
+    transform: translateY(0px);
+  }
+
+  50% {
+    transform: translateY(-10px);
+  }
+
+  100% {
+    transform: translateY(0px);
+  }
 }
 
 .wave-emoji {
@@ -64,6 +99,12 @@
   animation-name: wave;
   display: inline-block;
   transform-origin: 70% 70%;
+}
+
+
+.custom-lottie-size {
+  max-width: 100%;
+  margin: 0 auto;
 }
 
 @keyframes wave {

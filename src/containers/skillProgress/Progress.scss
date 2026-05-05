@@ -1,24 +1,28 @@
 @import "../../_globalColor";
 
 .meter {
-  height: 20px;
+  height: 10px;
   position: relative;
-  background: $progressBarBackground;
-  -moz-border-radius: 25px;
-  -webkit-border-radius: 25px;
-  border-radius: 25px;
+  background: #e5e7eb;
+  border-radius: 20px;
+  overflow: hidden;
+  margin-top: 10px;
 }
-.meter > span {
+
+.meter span {
   display: block;
   height: 100%;
-  border-top-right-radius: 6px;
-  border-bottom-right-radius: 6px;
-  border-top-left-radius: 20px;
-  border-bottom-left-radius: 20px;
-  background-color: $progressBarSpanBG;
-  position: relative;
-  overflow: hidden;
+  border-radius: 20px;
+  background: linear-gradient(90deg, #2563eb, #3b82f6);
+  animation: progressAnimation 2s ease-in-out;
 }
+
+@keyframes progressAnimation {
+  from {
+    width: 0;
+  }
+}
+
 .skill {
   line-height: 3.5vw;
 }

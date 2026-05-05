@@ -20,12 +20,23 @@ html,
 body {
   scroll-behavior: smooth;
 }
-body {
+/* body {
   margin: 0;
   font: 19px / 23px Montserrat, "Montserrat", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+} */
+
+
+body {
+  margin: 0;
+  font-family: "Inter", sans-serif;
+  font-size: 19px;
+  line-height: 1.6;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
+
 /* Media Query */
 @media (max-width: 1380px) {
   html,
