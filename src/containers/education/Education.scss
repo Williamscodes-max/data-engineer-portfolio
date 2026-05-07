@@ -169,3 +169,36 @@
     padding: 16px;
   }
 }
+
+
+.education-card,
+.education-card-right {
+  height: auto !important;
+  overflow: visible !important;
+}
+
+.education-text-school,
+.education-text-subHeader,
+.education-text-desc {
+  white-space: normal !important;
+  overflow-wrap: break-word;
+  word-break: break-word;
+}
+
+
+.education-card-left {
+  flex-shrink: 0;
+}
+
+.education-card-right {
+  min-width: 0;
+}
+
+.education-card {
+  overflow: visible !important;
+}
+
+.education-card {
+  max-width: 100%;
+  box-sizing: border-box;
+}
