@@ -49,8 +49,6 @@
   }
 }
 
-
-
 .education-card {
   display: flex;
   align-items: flex-start;
@@ -101,8 +99,6 @@
   line-height: 1.7;
 }
 
-
-
 @media (max-width: 768px) {
   .education-card {
     flex-direction: column;
@@ -114,7 +110,6 @@
     margin-bottom: 10px;
   }
 }
-
 
 .dark-mode.education-card {
   background: #171c28;
@@ -137,11 +132,40 @@
   color: #e2e8f0;
 }
 
-
 .dark-mode .education-card * {
   background-color: transparent !important;
 }
 
 .dark-mode .education-card {
   background-color: #171c28 !important;
+}
+
+
+.education-card {
+  height: auto !important;
+  overflow: visible !important;
+}
+
+.education-text-school,
+.education-text-subHeader,
+.education-text-desc {
+  white-space: normal !important;
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+}
+
+.education-card {
+  align-items: flex-start;
+}
+
+
+@media (max-width: 768px) {
+  .education-text-school {
+    font-size: 20px;
+    line-height: 1.4;
+  }
+
+  .education-card {
+    padding: 16px;
+  }
 }
