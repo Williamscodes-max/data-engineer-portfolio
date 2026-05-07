@@ -73,9 +73,17 @@
   object-fit: contain;
 }
 
+
+
 .education-card-right {
   flex: 1;
+  min-width: 0; /* CRITICAL for preventing text collapse */
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
 }
+
+
 
 .education-text-school {
   font-size: 24px;
@@ -186,9 +194,6 @@
   flex-shrink: 0;
 }
 
-.education-card-right {
-  min-width: 0;
-}
 
 .education-card {
   overflow: visible !important;
@@ -197,4 +202,48 @@
 .education-card {
   max-width: 100%;
   box-sizing: border-box;
+}
+
+
+.education-card {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start; /* FIXES sinking issue */
+  justify-content: space-between;
+
+  gap: 20px;
+
+  padding: 24px;
+  margin-bottom: 24px;
+
+  height: auto;
+  overflow: visible;
+
+  box-sizing: border-box;
+}
+
+
+.education-text-school {
+  margin: 0;
+  line-height: 1.3;
+  font-weight: 600;
+}
+
+.education-text-subHeader {
+  margin-top: 4px;
+  line-height: 1.4;
+}
+
+.education-text-duration {
+  margin-top: 6px;
+  display: inline-block;
+}
+
+.education-card-left {
+  align-self: flex-start;
+}
+
+
+.education-card-left {
+  align-self: flex-start;
 }
