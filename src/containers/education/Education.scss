@@ -73,8 +73,6 @@
   object-fit: contain;
 }
 
-
-
 .education-card-right {
   flex: 1;
   min-width: 0; /* CRITICAL for preventing text collapse */
@@ -82,8 +80,6 @@
   flex-direction: column;
   justify-content: flex-start;
 }
-
-
 
 .education-text-school {
   font-size: 24px;
@@ -194,7 +190,6 @@
   flex-shrink: 0;
 }
 
-
 .education-card {
   overflow: visible !important;
 }
@@ -203,7 +198,6 @@
   max-width: 100%;
   box-sizing: border-box;
 }
-
 
 .education-card {
   display: flex;
@@ -221,7 +215,6 @@
 
   box-sizing: border-box;
 }
-
 
 .education-text-school {
   margin: 0;
@@ -242,7 +235,6 @@
 .education-card-left {
   align-self: flex-start;
 }
-
 
 .education-card-left {
   align-self: flex-start;
