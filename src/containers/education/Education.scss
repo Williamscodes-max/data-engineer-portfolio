@@ -65,6 +65,7 @@
 
 .education-card-left {
   flex-shrink: 0;
+  margin-right: 10px;
 }
 
 .education-card-left img {
@@ -201,10 +202,8 @@
 
 .education-card {
   display: flex;
-  flex-direction: row;
-  align-items: flex-start; /* FIXES sinking issue */
-  justify-content: space-between;
-
+  align-items: flex-start;
+  gap: 0;
   gap: 20px;
 
   padding: 24px;
